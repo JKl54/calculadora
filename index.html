@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ヽ༼☯﹏☯༽ﾉ</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora maquiavelica</h1>
+
+        <div class="contenedor-ejercicio">
+            <label for="seleccionEjercicio">Selecciona un ejercicio SLUT:</label>
+            <select id="seleccionEjercicio">
+                <option value="0">Contador de Números Pares e Impares</option>
+                <option value="1">Calculadora de Factorial</option>
+                <option value="2">Validación de Contraseña</option>
+                <option value="3">Generador de Tablas de Multiplicar</option>
+                <option value="4">Suma de Números Primos</option>
+                <option value="5">Secuencia de Fibonacci</option>
+                <option value="6">Convertidor de Temperatura</option>
+                <option value="7">Calculadora de Potencia</option>
+                <option value="8">Mostrar Resultados</option>
+            </select>
+        </div>
+
+        <p id="descripcionEjercicio" class="descripcion"></p>
+
+        <div id="entradaUsuario" style="display: none;">
+            <label for="campoEntrada">Ingresa un valor:</label>
+            <input type="text" id="campoEntrada" class="campo-entrada">
+            <button onclick="verificarRespuesta()" class="btn">Ejecutar</button>
+        </div>
+
+        <div id="resultados" style="display: none;">
+            <h2>Resultados (ෆ‿ෆ)</h2>
+            <div id="textoResultados" class="descripcion"></div>
+        </div>
+    </div>
+
+    <script src="js/script.Js"></script>
+</body>
+</html>
